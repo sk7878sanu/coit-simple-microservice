@@ -43,8 +43,8 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<repository>
+       	<repositories>
+	 <repository>
             <id>coit-maven-repo-snapshot</id>
             <url>http://157.245.111.124:8081/repository/coit-maven-repo-snapshot/</url>
             	<releases>
@@ -53,9 +53,9 @@
             	<snapshots>
               		<enabled>true</enabled>
             	</snapshots>
-        </repository>
+         </repository>
 	
-	<repository>
+	 <repository>
             <id>coit-maven-repo-release</id>
             <url>http://157.245.111.124:8081/repository/coit-maven-repo-release/</url>
             	<releases>
@@ -64,6 +64,6 @@
             	<snapshots>
               		<enabled>false</enabled>
             	</snapshots>
-        </repository>
-		
+         </repository>
+	</repositories>	
 </project>
